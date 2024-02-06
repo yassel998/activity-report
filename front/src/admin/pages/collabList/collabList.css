@@ -1,0 +1,45 @@
+.collabList {
+  flex: 4;
+}
+
+.collabListEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.collabListDelete {
+  color: red;
+  cursor: pointer;
+}
+
+.collabListEdit:hover {
+  background-color: white;
+  color: #3bb077;
+}
+
+.collabListDelete:hover {
+  background-color: red;
+  color: white;
+}
+
+.addnewCollab {
+  background-color: rgb(198, 198, 238);
+  color: rgb(114, 112, 112);
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 240px;
+  font-size: 15px;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.addnewCollab:hover {
+  background-color: rgb(196, 193, 193);
+  color: rgb(99, 99, 122);
+}

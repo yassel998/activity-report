@@ -1,0 +1,116 @@
+.productList {
+  flex: 4;
+}
+
+.productListItem {
+  display: flex;
+  align-items: center;
+}
+
+.projectListEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.productListDelete {
+  color: red;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.projectListAdd {
+  color: blue;
+  cursor: pointer;
+  margin-top: 18px;
+}
+
+.projectListEdit:hover {
+  background-color: white;
+  color: #3bb077;
+}
+
+.productListDelete:hover {
+  background-color: red;
+  color: white;
+}
+
+.projectListAdd:hover {
+  background-color: rgb(68, 0, 255);
+  color: rgb(242, 242, 248);
+  cursor: pointer;
+  margin-top: 18px;
+}
+.customers{
+  padding-left: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+
+}
+.customers td,.customers th{
+  border: 1px solid #ddd;
+  padding: 6px;
+}
+td:first-child {
+  word-break: break-word;
+  height: auto;
+  width: 600px;
+}
+table {
+  table-layout: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+.customers tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+.customers tr:hover {
+  background-color: #ddd;
+}
+.customers  th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+.date{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn-date{
+  background-color: #4CAF50;
+  margin-left: 5px;
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.btn-date:active,.btn-date:hover{
+  background-color: #04AA6D;
+}
+input[type=date],input[type=month] {
+  padding: 12px 18px;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+}

@@ -1,0 +1,122 @@
+/* .calendar {
+  padding: 20px;
+} */
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+td,
+th {
+  border: solid 1px;
+  text-align: center;
+  width: 20px;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  white-space: nowrap;
+}
+
+.example {
+  width: 20px;
+  height: 25px;
+  font-size: 14px;
+  text-align: center;
+  margin: 4px;
+}
+
+.inptd {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+#total {
+  width: 30px;
+  background-color: bisque;
+  text-align: center;
+  height: 25px;
+  cursor: not-allowed;
+}
+
+.selOptions {
+  width: 350px;
+  margin-bottom: 30px;
+}
+
+.save {
+  margin-top: 40px;
+}
+
+.notAllowed {
+  background-color: rgb(179, 174, 174);
+  color: black;
+  width: 20px;
+  height: 25px;
+  font-size: 14px;
+  text-align: center;
+  margin: 4px;
+  cursor: not-allowed;
+}
+
+.fullname {
+  padding: 50px 50px 0px 50px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.dateVal {
+  position: absolute;
+  left: 1000px;
+  padding-bottom: 30px;
+}
+
+.month {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btmnonth {
+  font-size: 16px;
+  width: 150px;
+  color: black;
+  font-weight: 700;
+  background-color: rgb(211, 226, 226);
+  cursor: not-allowed;
+}
+
+.projects {
+  padding: 10px 30px 15px 15px;
+}
+.prj {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.tableInser {
+  width: 95%;
+  padding-left: 40px;
+}
+.confirmation {
+  text-align: center;
+}
+
+.cancel {
+  font-size: 17px;
+  margin-left: 5px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.save {
+  font-size: 17px;
+  margin-right: 5px;
+  height: 25px;
+  cursor: pointer;
+}
+.Toastify__toast-container {
+  width: 450px;
+}
